@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/colorNavMenuBg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_gayw_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/gayw_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_gayw_img"
+            android:textColor="@color/white"
+            android:text="警务要闻"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_zlzf_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/zlzf_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_zlzf_img"
+            android:textColor="@color/white"
+            android:text="战例战法"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_jqyj_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/jqyj_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_jqyj_img"
+            android:textColor="@color/white"
+            android:text="警情预警"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_spdb_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/spdb_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_spdb_img"
+            android:textColor="@color/white"
+            android:text="视频点播"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_jywy_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/jywy_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_jywy_img"
+            android:textColor="@color/white"
+            android:text="警营文苑"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_bjfw_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bjfw_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_bjfw_img"
+            android:textColor="@color/white"
+            android:text="便警服务"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/iv_tsga_img"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bjfw_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/iv_tsga_img"
+            android:textColor="@color/white"
+            android:text="图说公安"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+</LinearLayout>

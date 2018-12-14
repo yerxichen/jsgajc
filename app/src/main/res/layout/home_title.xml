@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_25" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_below="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+
+            android:layout_marginLeft="15dp"
+            android:id="@+id/rl_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:src="@drawable/eye"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:src="@drawable/eye_in"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/iv_logo_title"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/rl_eye"
+            android:src="@drawable/logo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_toRightOf="@id/iv_logo_title"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_menu"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/menu"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_search"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_toLeftOf="@id/iv_menu"
+                android:src="@drawable/search"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gayw"
+            android:icon="@drawable/gayw_img_nomal"
+            android:title="警务要闻" />
+        <item
+            android:id="@+id/nav_zlzf"
+            android:icon="@drawable/zlzf_img_nomal"
+            android:title="战例战法" />
+        <item
+            android:id="@+id/nav_jqyj"
+            android:icon="@drawable/jqyj_img_nomal"
+            android:title="警情预警" />
+        <item
+            android:id="@+id/nav_spdb"
+            android:icon="@drawable/spdb_img_nomal"
+            android:title="视频点播" />
+        <item
+            android:id="@+id/nav_jywy"
+            android:icon="@drawable/jywy_img_nomal"
+            android:title="警营文苑" />
+        <item
+            android:id="@+id/nav_bjfw"
+            android:icon="@drawable/bjfw_img_nomal"
+            android:title="便警服务" />
+    </group>
+
+</menu>
